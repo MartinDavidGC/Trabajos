@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendar Cita</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styleadminasesor.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Menú Lateral -->
+    <aside class="sidebar">
+        <div class="user-section">
+          <img src="perfil.jpg" alt="User Icon">
+          <p>Admin</p>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#"><i class="fas fa-home"></i>Propiedades</a>
+              <ul>
+                <li><a href="propiedades.html">Lista de propiedades</a></li>
+                <li><a href="agregarpropiedad.html">Nueva Propiedad</a></li>
+                <li><a href="#">Editar Propiedad</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-user-tie"></i>Asesores</a>
+              <ul>
+                <li><a href="agendarcita.html">Asignar Asesores</a></li>
+                <li><a href="agregarasesores.html">Editar Asesores</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-calendar-alt"></i>Citas</a>
+              <ul>
+                <li><a href="agendarcita.html">Agendar Cita</a></li>
+                <li><a href="editarcita.html">Editar Cita</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-user-cog"></i>Mi Cuenta</a>
+              <ul>
+                <li><a href="#">Modificar Mi Perfil</a></li>
+                <li><a href="#">Cambiar Contraseña</a></li>
+                <li><a href="#">Salir</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+  
+
+    <!-- Contenido Principal -->
+    <main class="main-content">
+      <h1>Panel Admin</h1>
+      <div class="form-buttons-container">
+        <div class="form-container">
+          <form>
+   
+          </form>
+        </div>
+
+        <!-- Botones de Acción -->
+        <div class="action-buttons">
+          <button class="btn btn-verde" title="Guardar Cambios">
+            <i class="fas fa-save"></i>
+          </button>
+          <button class="btn btn-amarillo" title="Nueva Cita">
+            <i class="fas fa-calendar-plus"></i>
+          </button>
+          <button class="btn btn-rojo" title="Eliminar Cita">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
